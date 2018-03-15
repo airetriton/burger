@@ -1,32 +1,31 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "In this assignment, you'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.",
+  "description": "* Burger Bracket is a burger joint app that lets users create burgers they'd like to eat.",
   "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.10",
-    "mysql": "^2.15.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ljreader/burger.git"
+    "url": "git+https://github.com/airetriton/burger.git"
   },
   "keywords": [
     "burger",
-    "MySql"
+    "mysql"
   ],
-  "author": "ljreader",
+  "author": "airetriton",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ljreader/burger/issues"
+    "url": "https://github.com/airetriton/burger/issues"
   },
-  "homepage": "https://github.com/ljreader/burger#readme"
+  "homepage": "https://github.com/airetriton/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  }
 }

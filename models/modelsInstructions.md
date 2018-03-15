@@ -1,1 +1,0 @@
-Uses Configurations folder ORM in order to collect data from our database and send it to controllers folder.
